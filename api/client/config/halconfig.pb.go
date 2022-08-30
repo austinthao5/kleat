@@ -37,6 +37,10 @@ const (
 // of the legacy proto package is being used.
 const _ = proto.ProtoPackageIsVersion4
 
+type test struct {
+	testing string
+}
+
 // Configuration for a Spinnaker installation.
 type Hal struct {
 	state         protoimpl.MessageState
